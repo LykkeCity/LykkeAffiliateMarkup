@@ -5,3 +5,6 @@
 `npm update`
 
 `gulp dev`
+
+
+Demo: https://lykkecity.github.io/LykkeAffiliateMarkup/
