@@ -38,7 +38,7 @@ gulp.task('copy-css-vendors', function () {
 
 gulp.task('copy-scripts', function () {
   return gulp.src([
-    './assets/js/**/*.js'
+    './assets/js/*'
   ])
     .pipe(gulp.dest('./public/js'));
 });
