@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "clipboard": "^1.7.1",
-    "jquery": "^1.12.4",
+    "jquery": "^3.0.0",
     "rrssb": "^1.14.0"
   }
 }
