@@ -68,7 +68,7 @@ gulp.task('copy-fonts-prod', function () {
 
 gulp.task('copy-css-prod', function () {
   return gulp.src([
-    './public/css/*/**'
+    './public/css/*'
     ])
     .pipe(gulp.dest('./dist/css/', {}));
 });
