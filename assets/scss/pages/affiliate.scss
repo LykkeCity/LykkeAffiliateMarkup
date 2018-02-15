@@ -10,18 +10,19 @@ hr {
 }
 
 .header_logo {
-  @include rem(margin-top, -2px);
-
-  &__img {
-    margin-right: 0;
-  }
+  @include rem(margin-top, -4px);
+  @include rem(margin-bottom, -4px);
 
   &__title {
     position: relative;
 
-    @include rem(top, 4px);
-    @include rem(font-size, 31px);
+    @include rem(font-size, 28px);
+    @include rem(top, 2px);
   }
+}
+
+.header__logo img {
+  @include rem(height, 50px);
 }
 
 @media (max-width: 543px) {
